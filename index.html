@@ -5,7 +5,7 @@
     <form>
       <div class="row">
         <label for="">How much was your bill?</label>
-        <input id="billamt" type="text" placeholder="Bill Amount" />
+        <input id="billamt" type="text" placeholder="Bill Amount" required />
         <link rel="stylesheet" href="style.css" />
       </div>
 
@@ -23,7 +23,12 @@
 
       <div class="row">
         <label for="">How many people are sharing the bill?</label>
-        <input id="peopleamt" type="text" placeholder="Number of People" />
+        <input
+          id="peopleamt"
+          type="text"
+          placeholder="Number of People"
+          required
+        />
       </div>
 
       <div class="row">
@@ -38,4 +43,4 @@
   </div>
 </div>
 
-<script type="text/javascript" src="tipcalculator.js"></script>
+<script src="tipcalculator.js"></script>
